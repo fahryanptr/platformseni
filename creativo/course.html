@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Creativo - The Best Program to Enroll for Exchange</title>
+  <meta name="title" content="EduWeb - The Best Program to Enroll for Exchange">
+  <meta name="description" content="This is an education html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logoo.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<script>
+  window.addEventListener('scroll', function() {
+    const header = document.getElementById('header');
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+</script>
+<style>
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #004AAD, #FF914D), url('./assets/images/hero-bg.svg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Buttons */
+.btn {
+  background: linear-gradient(to right, #004AAD, #FF914D);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #FF914D, #004AAD);
+}
+
+/* Typography */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica', sans-serif;
+}
+</style>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+    <!-- Header -->
+    <header id="header" class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo navbar-brand p-0">
+          <h1 class="m-0">
+            <i class="fas fa-paint-brush me-2"></i>
+            <span>Creativo</span>
+          </h1>
+        </a>
+  
+        <nav class="navbar" data-navbar>
+          <div class="wrapper">
+            <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+  
+          <ul class="navbar-list">
+            <li class="navbar-item"><a href="index.html" class="navbar-link" data-nav-link>Home</a></li>
+            <li class="navbar-item"><a href="course.html" class="navbar-link" data-nav-link>Courses</a></li>
+            <li class="navbar-item"><a href="product.html" class="navbar-link" data-nav-link>Product</a></li>
+            <li class="navbar-item"><a href="blog.html" class="navbar-link" data-nav-link>Blog</a></li>
+            <li class="navbar-item"><a href= "contact.html" class="navbar-link" data-nav-link>Contact</a></li>
+          </ul>
+        </nav>
+  
+        <div class="header-actions">
+          <button class="header-action-btn" aria-label="toggle search" title="Search">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+  
+          <button class="header-action-btn" aria-label="cart" title="Cart">
+            <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+            <span class="btn-badge">0</span>
+          </button>
+  
+          <a href="signup.html" class="btn has-before">
+            <span class="span">Join Creativo</span>
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+  
+          <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+  
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+  
+  
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+     <!-- Hero Section for Courses Page -->
+<section class="section hero has-bg-image" id="course-hero" aria-label="courses" style="background-image: url('./assets/images/course-hero-bg.svg');">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="h1 section-title">
+        Explore Our <span class="span">Top Courses</span>
+      </h1>
+      
+      <p class="hero-text">
+        Discover a variety of courses designed to help you achieve your creative goals. Whether you're a beginner or an experienced artist, we have something for everyone.
+      </p>            
+
+      <a href="#courses" class="btn has-before">
+        <span class="span">Browse Courses</span>
+        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+      </a>
+    </div>
+
+    <figure class="hero-banner">
+      <div class="img-holder one" style="--width: 270; --height: 300;">
+        <img src="./assets/images/hero-banner-1.jpg" width="270" height="300" alt="course hero banner" class="img-cover">
+      </div>
+
+      <div class="img-holder two" style="--width: 240; --height: 370;">
+        <img src="./assets/images/hero-banner-2.jpg" width="240" height="370" alt="course hero banner" class="img-cover">
+      </div>
+
+      <img src="./assets/images/hero-shape-1.svg" width="380" height="190" alt="" class="shape hero-shape-1">
+      <img src="./assets/images/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2">
+    </figure>
+  </div>
+</section>
+
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-label="category">
+        <div class="container">
+
+          <p class="section-subtitle">Categories</p>
+
+          <h2 class="h2 section-title">
+            Online <span class="span">Classes</span> For Remote Learning.
+          </h2>
+
+          <p class="section-text">
+            Let's join our course to make up your portofolio
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="category-card" style="--color: 170, 75%, 41%">
+            
+                <div class="card-icon">
+                  <img src="./assets/images/category-1.svg" width="40" height="40" loading="lazy"
+                    alt="Painting & Drawing" class="img">
+                </div>
+            
+                <h3 class="h3">
+                  <a href="#" class="card-title">Painting & Drawing</a>
+                </h3>
+            
+                <p class="card-text">
+                  Explore the world of colors and techniques in our comprehensive painting and drawing courses.
+                </p>
+            
+                <span class="card-badge">10 Courses</span>
+            
+              </div>
+            </li>
+            
+            <li>
+              <div class="category-card" style="--color: 351, 83%, 61%">
+            
+                <div class="card-icon">
+                  <img src="./assets/images/category-2.svg" width="40" height="40" loading="lazy"
+                    alt="Sculpture & 3D Art" class="img">
+                </div>
+            
+                <h3 class="h3">
+                  <a href="#" class="card-title">Music</a>
+                </h3>
+            
+                <p class="card-text">
+                  Dive into the realm of music and all of interest categories with our specialized music courses.
+                </p>
+            
+                <span class="card-badge">4 Courses</span>
+            
+              </div>
+            </li>
+            
+            <li>
+              <div class="category-card" style="--color: 229, 75%, 58%">
+            
+                <div class="card-icon">
+                  <img src="./assets/images/category-3.svg" width="40" height="40" loading="lazy"
+                    alt="Digital Art & Animation" class="img">
+                </div>
+            
+                <h3 class="h3">
+                  <a href="#" class="card-title">Digital Art & Animation</a>
+                </h3>
+            
+                <p class="card-text">
+                  Learn the latest techniques in digital art and animation from industry experts.
+                </p>
+            
+                <span class="card-badge">8 Courses</span>
+            
+              </div>
+            </li>
+            
+            <li>
+              <div class="category-card" style="--color: 42, 94%, 55%">
+            
+                <div class="card-icon">
+                  <img src="./assets/images/category-4.svg" width="40" height="40" loading="lazy"
+                    alt="Photography" class="img">
+                </div>
+            
+                <h3 class="h3">
+                  <a href="#" class="card-title">Photography</a>
+                </h3>
+            
+                <p class="card-text">
+                  Master the art of capturing moments in every moment you have with our photography courses for all levels.
+                </p>
+            
+                <span class="card-badge">8 Courses</span>
+            
+              </div>
+            </li>
+            
+          </ul>
+
+        </div>
+      </section>
+
+       <!-- 
+        - #COURSE
+      -->
+
+      <section class="section course" id="courses" aria-label="course">
+        <div class="container">
+      
+          <p class="section-subtitle">Popular Courses</p>
+      
+          <h2 class="h2 section-title">Pick A Course To Get Started</h2>
+      
+          <ul class="grid-list">
+      
+            <li>
+              <div class="course-card">
+      
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course1.jpg" width="370" height="220" loading="lazy"
+                    alt="Introduction to Fine Arts" class="img-cover">
+                </figure>
+      
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+      
+                  <span class="span">3 Weeks</span>
+                </div>
+      
+                <div class="card-content">
+      
+                  <span class="badge">Beginner</span>
+      
+                  <h3 class="h3">
+                    <a href="course1.html" class="card-title">Introduction to Fine Arts</a>
+                  </h3>
+      
+                  <div class="wrapper">
+      
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+      
+                    <p class="rating-text">(5.0/5 Rating)</p>
+      
+                  </div>
+      
+                  <data class="price" value="29">Free</data>
+      
+                  <ul class="card-meta-list">
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+      
+                      <span class="span">8 Lessons</span>
+                    </li>
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+      
+                      <span class="span">20 Students</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="course-card">
+      
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course2.jpg" width="370" height="220" loading="lazy"
+                    alt="Digital Art and Design" class="img-cover">
+                </figure>
+      
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+      
+                  <span class="span">8 Weeks</span>
+                </div>
+      
+                <div class="card-content">
+      
+                  <span class="badge">Advanced</span>
+      
+                  <h3 class="h3">
+                    <a href="course2.html" class="card-title">Digital Art and Design</a>
+                  </h3>
+      
+                  <div class="wrapper">
+      
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+      
+                    <p class="rating-text">(4.5/5 Rating)</p>
+      
+                  </div>
+      
+                  <data class="price" value="49">Rp100.000</data>
+      
+                  <ul class="card-meta-list">
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+      
+                      <span class="span">15 Lessons</span>
+                    </li>
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+      
+                      <span class="span">35 Students</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="course-card">
+      
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course3.jpg" width="370" height="220" loading="lazy"
+                    alt="Photography Masterclass" class="img-cover">
+                </figure>
+      
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+      
+                  <span class="span">4 Weeks</span>
+                </div>
+      
+                <div class="card-content">
+      
+                  <span class="badge">Intermediate</span>
+      
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Photography Masterclass</a>
+                  </h3>
+      
+                  <div class="wrapper">
+      
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+      
+                    <p class="rating-text">(4.8/5 Rating)</p>
+      
+                  </div>
+      
+                  <data class="price" value="35">Rp150.000</data>
+      
+                  <ul class="card-meta-list">
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+      
+                      <span class="span">10 Lessons</span>
+                    </li>
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+      
+                      <span class="span">25 Students</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="course-card">
+      
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course4.jpg" width="370" height="220" loading="lazy"
+                    alt="Music Composition and Production" class="img-cover">
+                </figure>
+      
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+      
+                  <span class="span">5 Weeks</span>
+                </div>
+      
+                <div class="card-content">
+      
+                  <span class="badge">Intermediate</span>
+      
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Music Composition and Production</a>
+                  </h3>
+      
+                  <div class="wrapper">
+      
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+      
+                    <p class="rating-text">(4.9/5 Rating)</p>
+      
+                  </div>
+      
+                  <data class="price" value="39">Rp100.000</data>
+      
+                  <ul class="card-meta-list">
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+      
+                      <span class="span">12 Lessons</span>
+                    </li>
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+      
+                      <span class="span">30 Students</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="course-card">
+      
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course5.jpg" width="370" height="220" loading="lazy"
+                    alt="Advanced Graphic Design Techniques" class="img-cover">
+                </figure>
+      
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+      
+                  <span class="span">6 Weeks</span>
+                </div>
+      
+                <div class="card-content">
+      
+                  <span class="badge">Advanced</span>
+      
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Advanced Graphic Design Techniques</a>
+                  </h3>
+      
+                  <div class="wrapper">
+      
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+      
+                    <p class="rating-text">(4.7/5 Rating)</p>
+      
+                  </div>
+      
+                  <data class="price" value="45">Rp150.000</data>
+      
+                  <ul class="card-meta-list">
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+      
+                      <span class="span">14 Lessons</span>
+                    </li>
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+      
+                      <span class="span">40 Students</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+                <li>
+                  <div class="course-card">
+          
+                    <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                      <img src="./assets/images/course6.jpg" width="370" height="220" loading="lazy"
+                        alt="Creative Writing and Storytelling" class="img-cover">
+                    </figure>
+          
+                    <div class="abs-badge">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          
+                      <span class="span">7 Weeks</span>
+                    </div>
+          
+                    <div class="card-content">
+          
+                      <span class="badge">Beginner</span>
+          
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Creative Writing and Storytelling</a>
+                      </h3>
+          
+                      <div class="wrapper">
+          
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+          
+                        <p class="rating-text">(4.9/5 Rating)</p>
+          
+                      </div>
+          
+                      <data class="price" value="30">Free</data>
+          
+                      <ul class="card-meta-list">
+          
+                        <li class="card-meta-item">
+                          <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+          
+                          <span class="span">11 Lessons</span>
+                        </li>
+          
+                        <li class="card-meta-item">
+                          <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+          
+                          <span class="span">22 Students</span>
+                        </li>
+          
+                      </ul>
+          
+                    </div>
+          
+                  </div>
+                </li>
+          
+              </ul>
+          
+            </div>
+          </section>
+          
+      
+      
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo3.png" width="162" height="50" alt="Creativo logo">
+          </a>
+
+          <p class="footer-brand-text">
+            Empowering artists and creators through innovative learning and certification.
+          </p>
+
+          <div class="wrapper">
+            <span class="span">Add:</span>
+
+            <address class="address">Setra Duta Raya no. L6 Sarijadi, Bandung 40151 Indonesia</address>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Call:</span>
+
+            <a href="tel:+011234567890" class="footer-link">+01 123 4567 890</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:info@creativo.com" class="footer-link">info@creativo.com</a>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Online Platform</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Courses</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Artists</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Exhibitions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Artist Profiles</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Certification Guide</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Quick Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Gallery</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">News & Articles</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ's</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Sign In/Registration</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Upcoming Events</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Newsletter</p>
+
+          <p class="footer-list-text">
+            Enter your email address to subscribe to our newsletter for the latest updates and offers.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+
+            <button type="submit" class="btn has-before">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2024 All Rights Reserved by <a href="#" class="copyright-link">Creativo</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
